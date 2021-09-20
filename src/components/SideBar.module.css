@@ -1,0 +1,11 @@
+
+.sideText {
+    position: absolute;
+  right: 20vh;
+  width: 30vh;
+  border: 3px solid #73AD21;
+  padding: 11vh;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap ;
+}

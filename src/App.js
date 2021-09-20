@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Header from './components/Header';
+import MainSection from './components/MainSection';
+import NewsNotification from './components/NewsNotification';
+import SideSection from './components/SideSection';
+import Imgs from './components/Imgs';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <NewsNotification  topic='HS-ANALYYSI' body='Milloin autobaan Suomeen?' />
+      <NewsNotification  topic='TIEDOTE' body='Hallitus ottaa taas lisää lainaa' />
+      <NewsNotification  topic='KOLUMNI' body='Pitäisikö lihansyönti lopettaa?' />
+      <MainSection />
+      <SideSection />
+      <Imgs />
     </div>
   );
 }
