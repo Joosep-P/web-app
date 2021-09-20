@@ -1,11 +1,28 @@
-
-.sideText {
-    position: absolute;
-  right: 20vh;
-  width: 30vh;
-  border: 3px solid #73AD21;
-  padding: 11vh;
-  height: 60vh;
+.container {
   display: flex;
-  flex-wrap: wrap ;
+  justify-content: center;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+.flexboxItem{
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: #dfdfdf;
+}
+
+.item2{
+  min-height: 800px;
+  width: 400px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: #dfdfdf;
+  
+
+
 }
