@@ -1,12 +1,22 @@
 .mainText {
-    position: absolute;
+    position: relative;
     left: 30vh;
     width: 65vh;
     border: 3px solid #73AD21;
     padding: 11vh;
     height: 60vh;
     display: flex;
-    flex-wrap:wrap ;
+    
 
 
+}
+
+
+
+.card{
+  
+    background: blue;
+    width: 600px;
+    padding: 3px;
+    top: 30px;
 }
