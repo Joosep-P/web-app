@@ -4,7 +4,7 @@ import Header from './components/Header';
 import MainSection from './components/MainSection';
 import NewsNotification from './components/NewsNotification';
 import SideSection from './components/SideSection';
-import Imgs from './components/Imgs';
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +14,7 @@ function App() {
       <NewsNotification  topic='KOLUMNI' body='Pitäisikö lihansyönti lopettaa?' />
       <MainSection />
       <SideSection />
-      <Imgs />
+      
     </div>
   );
 }
