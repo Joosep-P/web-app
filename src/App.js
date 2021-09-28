@@ -12,7 +12,7 @@ function App() {
       <NewsNotification  topic='HS-ANALYYSI' body='Milloin autobaan Suomeen?' />
       <NewsNotification  topic='TIEDOTE' body='Hallitus ottaa taas lisää lainaa' />
       <NewsNotification  topic='KOLUMNI' body='Pitäisikö lihansyönti lopettaa?' />
-      <MainSection />
+      <MainSection       topic='OTSIKKO' body='alsdasjsafmsakddkamdksamdksadksamdka' />
       <SideSection />
       
     </div>

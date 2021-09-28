@@ -4,13 +4,16 @@
     width: 100%;  
     padding: 50px;
     box-sizing: border-box;
-    background-color: #333;
+    background-color: lightgrey;
     
 }
 
-.header {
-    font-size: 18px;
+.bolded {
+    font-size: 30px;
     font-weight: 700;
+    color: rgb(0, 25, 76); 
+    font-family: 'Franklin Gothic Medium','Arial Narrow', Arial,  sans-serif;
+    
 }
 
 
@@ -22,10 +25,11 @@
     margin: 10px;
     padding: 80px;
     border: 3px solid #333;
-    background-color: #dfdfdf;
+    background-color: white;
     flex-shrink: 0;
     text-align: left;
     justify-content: space-between;
+    -webkit-text-size-adjust: 100%;
 
 
 }
@@ -55,11 +59,16 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 28px;
+
+
     
 
 }
 
-h1{
+.headstyle{
     position: left;
     font-size: 20;
+    color: rgb(103, 154, 255);
+
+
 }
