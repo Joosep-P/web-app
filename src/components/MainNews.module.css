@@ -1,11 +1,7 @@
 .container {
-    display: flex;
-    justify-content: center;  
-    width: 100%;  
-    padding: 50px;
-    box-sizing: border-box;
-    background-color: lightgrey;
     
+    background-color: lightgray; 
+  
 }
 
 .bolded {
@@ -20,12 +16,14 @@
 
 
 .item1{
-    min-height: 800px;
+    height: 800px;
     width: 600px;
     margin: 10px;
     padding: 80px;
-    border: 3px solid #333;
-    background-color: white;
+    margin-right: 0px;
+    margin-left: 400px;
+    border: 1px solid #333;
+    background-color:white;
     flex-shrink: 0;
     text-align: left;
     justify-content: space-between;

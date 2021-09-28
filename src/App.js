@@ -13,7 +13,8 @@ function App() {
       <NewsNotification  topic='TIEDOTE' body='Hallitus ottaa taas lisää lainaa' />
       <NewsNotification  topic='KOLUMNI' body='Pitäisikö lihansyönti lopettaa?' />
       <MainSection       topic='OTSIKKO' body='alsdasjsafmsakddkamdksamdksadksamdka' />
-      <SideSection />
+      <SideSection       topic='Asuminen |' body='Asuntomessut vihdoin Pännäiseen. Nyt aletaan suunnittelemaan ihan uudella konseptilla.'/>
+     
       
     </div>
   );
