@@ -15,7 +15,7 @@ export default function Header() {
                 </div>
                 <div className={styles.triple}>
                 <div className={styles.button2}> Tilaa </div>
-                <div className={styles.button}> Kiejaud </div>
+                <div className={styles.button}> Kirjaud </div>
                 <div className={styles.button}> Valikko </div>
                  </div> 
         </div>

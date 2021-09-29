@@ -9,7 +9,7 @@ export default function MainSection(props) {
 
         <div className={styles.container}>
             
-            <div className={styles.item1}>
+            <span className={styles.item1}>
                 <img class="grid-image" src="https://source.unsplash.com/random/600x340"/> 
             <span className = { styles.bolded}>{ props.topic }|</span> { props.body }
             <hr style={{
@@ -17,7 +17,7 @@ export default function MainSection(props) {
                 backroundColor: '#000000',
                 borderColor: 'lightgray'
             }}/>
-        </div>
+        </span>
         
         </div>
    

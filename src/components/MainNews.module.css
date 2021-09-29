@@ -1,5 +1,5 @@
 .container {
-    
+    display: flex; 
     background-color: lightgray; 
   
 }
@@ -16,6 +16,7 @@
 
 
 .item1{
+
     height: 800px;
     width: 600px;
     margin: 10px;

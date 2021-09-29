@@ -8,13 +8,15 @@ import SideSection from './components/SideSection';
 function App() {
   return (
     <div className="App">
+    
+      
       <Header />
       <NewsNotification  topic='HS-ANALYYSI' body='Milloin autobaan Suomeen?' />
       <NewsNotification  topic='TIEDOTE' body='Hallitus ottaa taas lisää lainaa' />
       <NewsNotification  topic='KOLUMNI' body='Pitäisikö lihansyönti lopettaa?' />
       <MainSection       topic='OTSIKKO' body='alsdasjsafmsakddkamdksamdksadksamdka' />
       <SideSection       topic='Asuminen |' body='Asuntomessut vihdoin Pännäiseen. Nyt aletaan suunnittelemaan ihan uudella konseptilla.'/>
-     
+      
       
     </div>
   );
