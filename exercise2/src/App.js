@@ -40,36 +40,25 @@ class App extends React.Component {
       
       if(searchResult != -1) {
         console.log('Success' + searchResult + "is matching fot" + productDescription);
+        let newItems = [...this.state.items];
+        newItems[searchResult].qty += quantity;
+        this.setState({items: newItems});
+      
       }
       else{
         console.log('He needs some milk')
-      }
-      
-      /*
-      if(this.state.items.includes({
-        id: 1,
-        value: 'milk',
-        gty: 5,
-        unit: 'ltr'
+        this.setState({
+          items:
 
-      }) == true)
-      {
-        console.log('Milk found');
-      }
-      else{
-        console.log('He needs some milk');
-      }*/
-
-
-      this.setState({  
-        items: 
           [...this.state.items,
             {
-              id:this.state.items.lenght +1, 
-            value: productDescription, qty:quantity 
+              id: this.state.items.lenght +1,
+              value: productDescription, qty: quantity
             }
+          
           ]
         });
+      }
     }  
   }
 
@@ -82,8 +71,11 @@ class App extends React.Component {
         applicationName={ applicationName }
       />
       <ShoppingList items={ this.state.items } />
-      <button onClick={  this.addProduct('Carrot', 1)}>ADD Carrot</button>
-      <button onClick={  this.addProduct('Eggs', 1)}>ADD Eggs</button>
+      <button onClick={  this.addProduct('Vodka', 1)}>ADD Vodka</button>
+      <button onClick={  this.addProduct('Candy', 1)}>ADD Candy</button>
+      <button onClick={  this.addProduct('Melon', 1)}>ADD Melon</button>
+      <button onClick={  this.addProduct('Apple', 1)}>ADD Apple</button>
+
     </div>
   }
 }
