@@ -38,7 +38,7 @@ class App extends React.Component {
           }
       });
       
-      if(searchResult != -1) {
+      if(searchResult !== -1) {
         console.log('Success' + searchResult + "is matching fot" + productDescription);
       }
       else{
