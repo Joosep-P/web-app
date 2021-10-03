@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "image": "nike.jpg",
+      "id": 1,
+      "name": "Nike Running Shoes",
+      "type": "Mens",
+      "price": 167,
+      "rating": 5
+     
+    
+    },
+    {
+      "image": "arskat.jpg",
+      "id": 2,
+      "name": "JeepersPeepers Sunglasses",
+      "type": "Mens",
+      "price": 30.50,
+      "rating": 4.5
+      
+      
+    },
+    {
+      "image": "Kengat.jpg",
+      "id": 3,
+      "name": "Tamaris High Heals",
+      "type": "Women",
+      "price": 80.99,
+      "rating": 3
+      
+      
+    },
+    {
+      "image": "polaroid.jpg",
+      "id": 4,
+      "name": "Polaroid Photo Camera",
+      "type": "Electronics",
+      "price": 128.70,
+      "rating": 4.7
+     
+    }
+  ]
+}
