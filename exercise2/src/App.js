@@ -4,25 +4,23 @@ import ShoppingList from './components/ShoppingList';
 import styles from './App.module.css';
 import './App.css';
 
-/* A ES6 class style stateful component for the shopping list application */
+
 class App extends React.Component {
   constructor(props)
   {
-    /* You should call super(props) before any other statement. 
-       Otherwise, this.props will be undefined in the constructor, which can lead to bugs.
-    */
+    
     super(props);
 
     this.state = {
       items: [
-        { id: 1, value: 'Milk', qty: 5, unit: 'ltr' },
-        { id: 2, value: 'Bananas', qty: 6, unit: 'pcs' },
-        { id: 3, value: 'Bread', qty: 3, unit: 'x' },
-        { id: 4, value: 'Eggs', qty: 16, unit: 'x' }
+        { id: 1,
+         value: 'Petrol', 
+         qty: 5, 
+         unit: 'ltr'
+         },
       ]
     };
-    /*this.addSomeProduct =this.addSomeProduct.bind(this);*/
-
+    
   }
 
 
@@ -30,7 +28,7 @@ class App extends React.Component {
     
     return () => {
 
-      const searchResult = this.state.items.findIndex((element, index, array) => {
+      const searchResult = this.state.items.findIndex((element) => {
           if(element.value === productDescription){
             return true;
           }else{
@@ -39,14 +37,12 @@ class App extends React.Component {
       });
       
       if(searchResult !== -1) {
-        console.log('Success' + searchResult + "is matching fot" + productDescription);
         let newItems = [...this.state.items];
         newItems[searchResult].qty += quantity;
         this.setState({items: newItems});
       
       }
       else{
-        console.log('He needs some milk')
         this.setState({
           items:
 
@@ -70,7 +66,7 @@ class App extends React.Component {
         applicationDescription={ applicationDescription }
         applicationName={ applicationName }
       />
-      <ShoppingList items={ this.state.items } />
+      <ShoppingList items={ this.state.items } / >
       <button onClick={  this.addProduct('Vodka', 1)}>ADD Vodka</button>
       <button onClick={  this.addProduct('Candy', 1)}>ADD Candy</button>
       <button onClick={  this.addProduct('Melon', 1)}>ADD Melon</button>
